@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dagster-demo"
+name = "tutorial"
 version = "0.1.0"
 description = ""
 authors = ["firstnapat <“napatdmsu@gmail.com>"]
@@ -7,7 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-dagster = "^1.4.7"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+dagster-duckdb = "^0.20.7"
+dagster-duckdb-pandas = "^0.20.7"
+faker = "^19.3.1"
 
 
 [build-system]
