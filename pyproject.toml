@@ -9,17 +9,8 @@ readme = "README.md"
 python = "^3.11"
 dagster = "^1.4.9"
 dagster-webserver = "^1.4.9"
-requests = "^2.31.0"
-pandas = "^2.0.3"
-matplotlib = "^3.7.2"
-dagster-duckdb = "^0.20.9"
-dagster-duckdb-pandas = "^0.20.9"
-faker = "^19.3.1"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.dagster]
-module_name = "tutorial"
